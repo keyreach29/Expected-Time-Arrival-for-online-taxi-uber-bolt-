@@ -1,7 +1,8 @@
 ## Expected-Time-Arrival-for-online-taxi-uber-bolt-
 ![image](https://github.com/keyreach29/Expected-Time-Arrival-for-online-taxi-uber-bolt-/assets/83604592/180787ef-0891-4e9d-b77d-320e6995a73c)
-Predict the estimated time of arrival at the dropoff point for a single Taxi journey
 
+
+Predict the estimated time of arrival at the dropoff point for a single Taxi journey
 # Introduction
 Ride-hailing apps like Uber and Bolt rely on real-time data and machine learning algorithms to automate their services. Accurately predicting the estimated time of arrival (ETA) for Uber trips will make Uber's services more reliable and attractive; this will have a direct and indirect impact on both customers and business partners. The solution would help the company save money and allocate more resources to other parts of the business.
 
