@@ -18,9 +18,10 @@ Install the required packages to be able to run the evaluation locally.
 
 You need to have Python 3 on your system (a Python version lower than 3.10). Then you can clone this repo and being at the repo's root :: repository_name> ... follow the steps below:
 
-Windows:
+**Windows:**
 python -m venv venv; venv\Scripts\activate; python -m pip install -q --upgrade pip; python -m pip install -qr requirements.txt
-Linux & MacOs:
+
+**Linux & MacOs:**
 python3 -m venv venv; source venv/bin/activate; python -m pip install -q --upgrade pip; python -m pip install -qr requirements.txt
 The both long command-lines have a same structure, they pipe multiple commands using the symbol ; but you may manually execute them one after another.
 
@@ -30,18 +31,18 @@ Upgrade Pip, the installed libraries/packages manager to have the up-to-date ver
 Install the required libraries/packages listed in the requirements.txt file so that it will be allow to import them into the python's scripts and notebooks without any issue.
 NB: For MacOs users, please install Xcode if you have an issue.
 
-Repository Structure
+**Repository Structure**
 The repository is organized as follows:
 
-data/: Contains the dataset files.
-notebooks/: Contains Jupyter notebooks showcasing the step-by-step implementation of the case study, including EDA, feature engineering, model development, and evaluation.
-dev/: Contains any source code or scripts used in the case study, such as data preprocessing or custom functions.
+**data/**: Contains the dataset files.
+**notebooks/**: Contains Jupyter notebooks showcasing the step-by-step implementation of the case study, including EDA, feature engineering, model development, and evaluation.
+**dev/**: Contains any source code or scripts used in the case study, such as data preprocessing or custom functions.
 Feel free to explore the notebooks and source code to gain a deeper understanding.
 
-Run FastAPI
+**Run FastAPI**
 To run the fastAPI, paste this code to your terminal:
 
-uvicorn main:app — reload
+**uvicorn main:app — reload**
 When you run the script and start the web server using Uvicorn, your FastAPI application becomes accessible at
 
 http://127.0.0.1:8000
@@ -51,7 +52,7 @@ http://127.0.0.1:8000/docs
 Screenshots
 ezgif com-optimize (1) ezgif com-crop
 
-Resources
+**Resources**
 Here are some ressources you would read to have a good understanding of FastAPI :
 
 Tutorial - User Guide
@@ -63,7 +64,8 @@ Http status codes
 👏 Support
 If you found this article helpful, please give it a clap or a star on GitHub!
 
-Author
+**Author**
 Mike Kibet Kerich
-Medium channel
+
+**Medium channel**
  https://medium.com/@mkibekerich14
