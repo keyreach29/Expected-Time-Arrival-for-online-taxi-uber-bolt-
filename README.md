@@ -6,7 +6,7 @@ Ride-hailing apps like Uber and Bolt rely on real-time data and machine learning
 The objective of this project is to predict the estimated time of arrival at the dropoff point for a single Uber journey.
 
 Dataset
-The dataset used for this case study is provided here. https://github.com/keyreach29/Expected-Time-Arrival-for-online-taxi-uber-bolt-/blob/main/data
+The dataset used for this case study is provided [here](https://github.com/keyreach29/Expected-Time-Arrival-for-online-taxi-uber-bolt-/blob/main/data). 
 
 The data contains details for 119,549 trips (train and test are split by date). Each row contains a start location and end location (reported as latitude and longitude to within approximately 100m) and the travel distance along the fastest route. Each trip also has a timestamp, which can be used to pull the weather for that day from Weather.csv file. The weather data includes temperature, rainfall and wind speed for the time period during which the trip data was collected.
 
